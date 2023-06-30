@@ -1,0 +1,16 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "my_fbprophet"
+version = "0.7.1"
+description = ""
+authors = 'Lanru'
+
+[tool.poetry.dependencies]
+python = "^3.0"
+fbprophet = { version = "^0.7.1", allow-prereleases = true }
+
+[build-system.poetry]
+requires = ["fbprophet"]
